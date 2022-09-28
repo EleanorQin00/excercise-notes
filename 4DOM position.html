@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        <title>this is a new page</title>
+        <style>
+            body{
+                margin:10px;
+                display:grid;
+                grid-template-columns 1fr 5fr;
+                grid-template-rows: 50px 500px 50px;
+                grid-template-areas:"header header"
+                                    "main aside"
+                                    "footer footer"
+            }
+
+            header{
+                border-style:solid;
+                grid-area:header;
+            }
+
+            main{
+                border-style:solid;
+                grid-area:main;
+            }
+
+            aside{
+                border-style:solid;
+                grid-area:aside
+            }
+
+            footer{
+                border-style:solid;
+                grid-area:footer;
+            }
+        </style>
+    </head>
+    <body>
+        <header>header section.</header>
+        <main>
+            <p>
+                What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </main>
+        <aside>aside</aside>
+        <footer>this is a footer.</footer>
+    </body>
+</html>
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            border-style:solid;
+            /* the following are padding to help show the children boxes.*/
+            position:relative;
+            padding:5px;
+            color:purple;
+        }
+        .kid1{
+            border-style:solid;
+            position:relative;
+            top:30px;
+            left:25px;
+            background-color:yellow;
+        }
+        .kid2{
+            border-style:solid;
+            background-color:blue;
+        }
+        .kid3{
+            border-style:solid;
+            background-color:green;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        parent
+    <div class="kid1">i am kid 1</div>
+    <div class="kid2">i am kid 2</div>
+    <div class="kid3">i am kid 3</div>
+    </div>
+</body>
+</html>
